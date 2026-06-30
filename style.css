@@ -114,19 +114,27 @@ input {
 }
 .cards {
     background-color: #ffffff;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 8px;
     border-left: 6px solid #fbbf24;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 1rem;
+    justify-content: flex-start;
+    gap: 0.5rem;
 }
 .card-icons {
     display: flex;
     justify-content: flex-end;
     gap: 1.25rem;
-    font-size: 1.2rem;
     cursor: pointer;
+    margin-top: auto;
+    padding-top: 1rem;
+}
+.card-content h4 {
+    margin-bottom: 0;
+}
+.card-content p {
+    font-size: 0.9rem;
+    line-height: 1.4;
 }
