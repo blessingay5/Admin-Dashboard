@@ -137,4 +137,57 @@ input {
 .card-content p {
     font-size: 0.9rem;
     line-height: 1.4;
+    color: #64748b;
+}
+.right-main {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.panels, .trend-panel {
+    background-color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.panels {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.panel-item h5 {
+    color: #1e293b;
+    margin-bottom: 0.25rem;
+}
+.panel-item p {
+    font-size: 0.8rem;
+    color: #64748b;
+}
+/*added a horizontal rule to create a vitual seperation in ann section*/
+hr {
+    border: none;
+    border-top: 1px solid #e2e8f0;
+}
+.trend-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.trend-item {
+    display: flex;
+    gap: 1rem;
+    
+}
+.trend-item .handle {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.trend-item .project-name {
+    font-size: 0.85rem;
+    color: #64748b;
+}
+.section-title {
+    margin-bottom: 10px;
 }
